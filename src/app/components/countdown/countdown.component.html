@@ -1,0 +1,16 @@
+<div class="main-container">
+   <mat-card>
+    <img src="assets/media/nasa.jpg">
+    <h1>NASA COUNTDOWN</h1>
+    <button mat-raised-button color="warn"(click)="startCountdown()"><mat-icon aria-hidden="false" aria-label="warning icon">warning</mat-icon> Start countdown</button>
+    
+    <div class="container"  *ngIf="seconds  != '-1'">
+        <h1 >{{seconds }} </h1>
+        <span class='seconds-label'>seconds left</span>
+    </div>
+    <div class="container"  *ngIf="seconds  == '-1'">  
+        <p><mat-icon>check_circle_outline</mat-icon></p>
+        <span class='success-label'>Successful launch!</span>
+    </div>
+   </mat-card> 
+</div>

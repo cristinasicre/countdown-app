@@ -1,0 +1,31 @@
+.main-container {
+  width: 100%;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+mat-card {
+    margin: 40px;
+    width: fit-content;
+    display: inline-block;
+    border-radius: 10px;
+}
+mat-card img{
+    width:300px;
+}
+
+button {
+  margin: 0.2rem;
+}
+
+.container {
+  margin: 100px  !important;
+}
+.container h1 {
+  font-size: 90px;
+  margin-bottom: 30px;
+}
+
+.seconds-label{
+    margin-top: 20px;
+}
